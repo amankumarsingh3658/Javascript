@@ -100,6 +100,8 @@
 // IIFE
 // Immediately invoked function expression
 
+// used to isolate private variables
+
 // (function (params) {
 
 // })();
@@ -127,3 +129,4 @@
 // Hoisting wont work in expressions
 
 //*------------------------------------------------------------------------------------------------------------*
+// you can use fat arrow function anywhere in JS but you cant use it in objects where this keyword is used
